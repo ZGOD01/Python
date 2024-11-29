@@ -46,3 +46,19 @@ for val in nums :
     print(val)
 else :
     print("5 not found")
+    
+    
+# range() function in for loop
+
+for i in range(10) : #range(ending index)
+    print(i)
+print("Loop Ended!")
+
+
+for i in range(2, 10) : # range(starting index , ending index)
+    print(i)
+print("Loop Ended!")
+
+for i in range(1, 10 , 2) : # range(starting index , ending index , steps(means increment by..?))
+    print(i)
+print("Loop Ended!")
